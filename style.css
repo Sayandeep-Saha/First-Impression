@@ -15,7 +15,7 @@
 /* CSS of Navgation Bar*/
 
 
-  #navBar ul {
+#navBar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,11 +23,11 @@
     background-color: #404040;
   }
   
-  #navBar ul li {
+#navBar ul li {
     float: left;
   }
   
-  #navBar ul li a {
+#navBar ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -36,12 +36,16 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  #navBar ul li a:hover {
+#navBar ul li a:hover {
     background-color: #009900;
   } 
   
 
 /* CSS of Home page */
 
-
-
+#Intro h1{
+  color: brown;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
