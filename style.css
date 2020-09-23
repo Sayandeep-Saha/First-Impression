@@ -3,12 +3,13 @@
 }
 
 /* ------------------------- Header Section ------------------------- */
+
 .header {
   background-color: #16194e;
   width: 100%;
 }
 .header #w {
-  text-align: center;
+  text-align: left;
   background-color: #111227;
 }
 .header a {
