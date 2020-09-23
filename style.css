@@ -43,10 +43,14 @@
 
 /* CSS of Home page */
 
-#Intro h1{
-  color: brown;
+#Intro{
+  color: #ff9900;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  
+  background: url(bg1.jpg) no-repeat center center/cover;
+  content: "";
+ 
 }
+
+
+
