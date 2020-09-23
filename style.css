@@ -1,56 +1,35 @@
 *{
-  margin : 0;
+  margin: 0;
 }
 
-
-#wlogo{
-    background-color:#333; 
-    list-style-type: none;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
-
-  
-/* CSS of Navgation Bar*/
-
-
-#navBar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #404040;
-  }
-  
-#navBar ul li {
-    float: left;
-  }
-  
-#navBar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 50px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-#navBar ul li a:hover {
-    background-color: #009900;
-  } 
-  
-
-/* CSS of Home page */
-
-#Intro{
-  color: #ff9900;
+/* ------------------------- Header Section ------------------------- */
+.header {
+  background-color: #16194e;
+  width: 100%;
+}
+.header #w{
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: url(bg1.jpg) no-repeat center center/cover;
-  content: "";
- 
+  background-color: #111227;
+}
+.header a {
+  color: #f2f2f2;
+  text-decoration: none;
+  margin: 0 80px;
+  padding-bottom: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header ul{
+  text-align: center;
+}
+.item {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+a:hover {
+  border-bottom: 1px solid #f2f2f2;
 }
 
-
-
+/* ------------------------- Body Section ------------------------- */
