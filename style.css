@@ -13,7 +13,7 @@ a {
   text-decoration: none;
   margin: 0 20px;
   padding-bottom: 3px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courgette', cursive;  
   font-size: 20px;
   font-weight: bold;
   /*
@@ -39,11 +39,78 @@ a:hover {
 }
 
 /* ------------------------- Body Section ------------------------- */
-.home-bg-img {
-  width: 100%;
-  height: 100vh;
-  background-image: url("./bg1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
+
+.headingMovies{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 50px;
+  background-color: #2d545e;
+  color: #c2edda;
+}
+
+#MovieSection{
+
+  margin: 22px;
+  display: flex;
+
+}
+
+#MovieSection .container{
+  border: 2px solid #d98e6a;
+  padding: 33px;
+  margin: 25px 24px;
+  border-radius: 10px;
+  background: #dfedff8f;
+  margin-bottom: 20px;
+}
+
+.image1{
+  height: 206px;
+  display: block;
+  margin: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.container .p{ 
+  color: black;
+  font-weight: bold;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(5%, -241%);
+  
+}
+
+.container:hover .image1 {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #e2324f;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+/*------------------------------Footer Section------------------------------*/
+
+footer{
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
