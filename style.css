@@ -28,7 +28,7 @@ a {
   TODO: Change margin value while coding for responsive layout. 
   */
 }
-ul {
+#navBar {
   text-align: right;
 }
 .item {
@@ -67,7 +67,7 @@ a:hover {
 }
 
 #MovieSection .container{
-  border: 2px solid #d98e6a;
+  border: 2px solid #000066;
   padding: 33px;
   margin: 25px 24px;
   border-radius: 10px;
@@ -118,9 +118,15 @@ a:hover {
 
 footer{
   background: black;
-  color: white;
   padding: 10px;
   text-align: center;
+}
+.footerNote{
+  color: white;
+}
+
+#footerLinks{
+  display: inline-flex;
 }
 
 
