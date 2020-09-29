@@ -55,7 +55,7 @@ a:hover {
   font-size: 35px;
   font-family: 'Quicksand', sans-serif;
   padding: 50px;
-  background: linear-gradient(to bottom, #000066 -6%, #9900ff 85%);
+  background: linear-gradient(to top, #990099 -65%, #000066 100%);
   color: #c2edda;
 }
 
