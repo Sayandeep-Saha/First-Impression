@@ -74,6 +74,14 @@ border-radius: 24px;
 background-color: rgba(170, 170, 170, 0.233);
 
 }
+.hide {
+  display: none;
+}
+
+.searchContainer .SearchImg:hover + .hide{
+  display: block;
+  color: #c2edda;
+}
 
 
 /* ------------------------- Body Section ------------------------- */
