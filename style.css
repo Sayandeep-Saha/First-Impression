@@ -6,7 +6,7 @@ html{
   scroll-behavior: smooth;
 }
 
-/* ------------------------- Header Section ------------------------- */
+/* -------------------------############## Header Section ###################------------------------- */
 
 .header {
   background: linear-gradient(to top, #000066 17%, #990099 100%);
@@ -84,7 +84,7 @@ background-color: rgba(170, 170, 170, 0.233);
 }
 
 
-/* ------------------------- Body Section ------------------------- */
+/* -------------------------############### Body Section ################------------------------- */
 
 
 
@@ -96,6 +96,8 @@ background-color: rgba(170, 170, 170, 0.233);
   background: linear-gradient(to top, #990099 -65%, #000066 100%);
   color: #c2edda;
 }
+
+/* css for boxes */
 
 #MovieSection{
 
@@ -113,6 +115,9 @@ background-color: rgba(170, 170, 170, 0.233);
   margin-bottom: 20px;
 }
 
+/* css for images inside boxes */
+
+
 .image1{
   height: 206px;
   display: block;
@@ -126,6 +131,8 @@ background-color: rgba(170, 170, 170, 0.233);
   color: black;
   font-weight: bold;
 }
+
+/* css for transition inside boxes */
 
 .middle {
   transition: .5s ease;
@@ -152,7 +159,7 @@ background-color: rgba(170, 170, 170, 0.233);
 
 
 
-/*------------------------------Footer Section------------------------------*/
+/*--------------------- ################## Footer Section ################# ----------------*/
 
 footer{
   background: black;
