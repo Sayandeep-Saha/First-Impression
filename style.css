@@ -46,6 +46,36 @@ a:hover {
   border-bottom: 1px solid #f2f2f2;
 }
 
+/*------------------ Search Bar   --------------*/
+
+.searchContainer button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-top: 21px;
+}
+
+.searchContainer{
+  float: left;
+}
+
+#navBar input[type=text] {
+padding: 4px;
+margin-top: 24px;
+font-size: 21px;
+border: none;
+margin-left: 76px;
+border-radius: 24px;
+background-color: rgba(170, 170, 170, 0.233);
+
+}
+
+
 /* ------------------------- Body Section ------------------------- */
 
 
