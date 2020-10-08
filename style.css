@@ -173,7 +173,7 @@ html{
 /*--------------------- ################## Footer Section ################# ----------------*/
 
 .footer{
-  background: black;
+  background: #2C3335;
 }
 .footerNote{
   color: white;
@@ -181,9 +181,7 @@ html{
   padding: 5px;
 }
 
-#footerLinks{
- display: inline-flex ; 
-}
+
 .LinkImg{
   height: 30px; 
   width : 30px;
@@ -191,6 +189,7 @@ html{
 
 .aSlink{
   margin: 0 20px;
+  display: inline-block;
 }
 .LinkImg:hover{
   border-bottom: 1px solid #f2f2f2;
@@ -201,20 +200,28 @@ html{
   margin-left: 105px;
 }
 
-#privacy{
-display: inline-flex;
-float: right;
-}
+
+
+
+
+
 
 .PrivacyLink{
+  float: right;
+  display: block;
+}
+
+.aPrivacy{
   margin: 0 20px;
   color: #99AAAB;
   font-family: 'Quicksand', sans-serif;
   text-decoration: none;
   font-weight: bold;
   font-size: 17px;
+  float: right;
 }
-.PrivacyLink:hover{
+
+.aPrivacy:hover{
   border-bottom: 1px solid #f2f2f2;
 }
 
