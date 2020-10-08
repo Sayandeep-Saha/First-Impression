@@ -16,7 +16,7 @@ html{
   top: 0px;
   
 }
-a {
+.aitems {
   color: #f2f2f2;
   text-decoration: none;
   margin: 0 20px;
@@ -42,7 +42,7 @@ a {
   float: left;
   padding-left: 30px;
 }
-a:hover {
+.aitems:hover {
   border-bottom: 1px solid #f2f2f2;
 }
 
@@ -172,17 +172,50 @@ a:hover {
 
 /*--------------------- ################## Footer Section ################# ----------------*/
 
-footer{
+.footer{
   background: black;
-  padding: 10px;
-  text-align: center;
 }
 .footerNote{
   color: white;
+  text-align: center;
+  padding: 5px;
 }
 
 #footerLinks{
-  display: inline-flex;
+ display: inline-flex ; 
+}
+.LinkImg{
+  height: 30px; 
+  width : 30px;
+}
+
+.aSlink{
+  margin: 0 20px;
+}
+.LinkImg:hover{
+  border-bottom: 1px solid #f2f2f2;
+}
+.footerText{
+  color: #f2f2f2;
+  margin-bottom: 10px;
+  margin-left: 105px;
+}
+
+#privacy{
+display: inline-flex;
+float: right;
+}
+
+.PrivacyLink{
+  margin: 0 20px;
+  color: #99AAAB;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+.PrivacyLink:hover{
+  border-bottom: 1px solid #f2f2f2;
 }
 
 
