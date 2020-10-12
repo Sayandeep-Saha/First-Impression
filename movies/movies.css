@@ -1,4 +1,43 @@
 .fa{
     margin-top: 180px;
     color: lightslategrey;
+    
 }
+
+.fa:hover{
+    color: rgb(189, 3, 34);
+}
+
+.Arrow{
+    height: 10px;
+    width: 10px;
+}
+
+#MovieSectionSecond{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+    
+  }
+  
+#MovieSectionSecond .container{
+  background-color:  #dfedff8f;
+  border: 2px solid #000066;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  }
+
+.genre{
+      text-decoration: none;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(1, 0, 2); 
+  }
+
+.genre:hover{
+    border-bottom: 1px solid #001046;
+}
+
