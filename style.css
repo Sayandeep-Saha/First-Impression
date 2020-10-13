@@ -124,12 +124,13 @@ html{
   border-radius: 10px;
   background: #dfedff8f;
   margin-bottom: 20px;
+  
 }
 
 /* css for images inside boxes */
 
 
-.image1{
+.container .image1{
   height: 206px;
   display: block;
   margin: auto;
