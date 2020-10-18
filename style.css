@@ -124,6 +124,8 @@ html{
   border-radius: 10px;
   background: #dfedff8f;
   margin-bottom: 20px;
+  width: 100%;
+  position: relative;
   
 }
 

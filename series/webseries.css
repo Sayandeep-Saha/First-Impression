@@ -1,0 +1,32 @@
+
+
+#MovieSectionLang{
+
+   margin: 22px;
+   display: flex;
+    
+}
+    
+#MovieSectionLang .container{
+       
+  margin: 25px auto;
+  margin-bottom: 20px;
+  margin-left: 125px;
+  width: 100%;
+     
+}
+
+#MovieSectionLang .container #GenreLang{
+
+  padding:50px ;
+  background-color: rgb(6, 219, 235);
+  font-size: 50px;
+  
+}
+
+
+
+
+top: 100%;
+left: 16%;
+transform: translate(6%, -288%);
