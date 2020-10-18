@@ -13,20 +13,20 @@
   margin-bottom: 20px;
   margin-left: 125px;
   width: 100%;
+ 
      
 }
 
 #MovieSectionLang .container #GenreLang{
 
   padding:50px ;
-  background-color: rgb(6, 219, 235);
+  background-color: rgb(60, 0, 109);
   font-size: 50px;
-  
+  border-radius: 35px;
+  box-shadow: 14px 21px 40px grey;
+  color: aliceblue;
 }
 
-
-
-
-top: 100%;
-left: 16%;
-transform: translate(6%, -288%);
+#GenreLang:hover{
+opacity: 0.5;
+}
