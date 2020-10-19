@@ -117,16 +117,15 @@ html{
 
 }
 
-#MovieSection .container{
-  border: 2px solid #000066;
+#MovieSection .container{  
   padding: 33px;
   margin: 25px 24px;
-  border-radius: 10px;
   background: #dfedff8f;
   margin-bottom: 20px;
   width: 100%;
   position: static;
-  
+  height: 100%;
+  box-shadow: 14px 21px 40px grey;
 }
 
 /* css for images inside boxes */
@@ -144,6 +143,7 @@ html{
 .container .p{ 
   color: black;
   font-weight: bold;
+  text-align: center;
 }
 
 /* css for transition inside boxes */

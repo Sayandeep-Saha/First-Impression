@@ -1,4 +1,7 @@
 
+/*-------------------------------- CSS for Genre Section ---------------------------------*/
+
+
 #MovieSectionGenre{
   margin: 22px;
   display: grid;
@@ -41,8 +44,8 @@ opacity: 0.5;
 
 #MovieSectionLang{
 
-   margin: 22px;
-   display: flex;
+  margin: 22px;
+  display: flex;
     
 }
     
