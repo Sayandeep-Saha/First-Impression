@@ -6,9 +6,9 @@ def index(request):
     return render(request,'index.html')
 
 def movies(request):
-    return render(request,'movies/movies.html')
+    return render(request,'movies.html')
 
 def webseries(request):
-    return render(request,'webseries/webseries.html')
+    return render(request,'webseries.html')
 
 
