@@ -5,7 +5,8 @@ from MyApp import views
 urlpatterns = [
 
     path('', views.index, name='home'),
-    path('movies', views.movies, name='movies'),
-    path('webseries', views.webseries, name='webseries'),
+    path('index.html', views.index, name='home'),
+    path('movies.html', views.movies, name='movies'),
+    path('webseries.html', views.webseries, name='webseries'),
     
 ]
