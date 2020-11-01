@@ -11,4 +11,7 @@ def movies(request):
 def webseries(request):
     return render(request,'webseries.html')
 
+def contact(request):
+    return render(request,'contact.html')
+
 
