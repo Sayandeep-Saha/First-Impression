@@ -26,7 +26,7 @@
 
 
     <header class="header">
-        <img src="../static/websiteLogo.png" class="head-img" alt="firstimpression" />
+        <img src="{% static '/websiteLogo.png' %}" class="head-img" alt="firstimpression" />
         <!-- Navigation bar -->
         <ul id="navBar">
             <li class="item"><a class="aitems" href="index.html">Home</a></li>
@@ -40,7 +40,7 @@
                 <form action="https://www.google.com/">     <!--should add server pointer to search -->
                 <input type="text" placeholder="type here to search" name="search">
                 <button type="submit">
-                    <img src="../static/searchIcon.png" alt="searchButton" class="SearchImg">
+                    <img src="{% static '/searchIcon.png' %}" alt="searchButton" class="SearchImg">
                     <div class="hide">Search</div>
                 </button>
                 </form>
@@ -62,9 +62,9 @@
             <p class="footerText">Follow Us</p>
 
             <ul id="footerLinks">
-                <li class="aSlink"><a href="https://www.instagram.com/" target="blank"><img class="LinkImg" src="../static/instagram.png" alt="instagram"></a></li>
-                <li class="aSlink"><a href="https://www.facebook.com/" target="blank"><img class="LinkImg" src="../static/facebook.png" alt="instagram"></a></li>
-                <li class="aSlink"><a href="https://twitter.com/" target="blank"><img class="LinkImg" src="../static/Twitter.png" alt="instagram"></a></li>
+                <li class="aSlink"><a href="https://www.instagram.com/" target="blank"><img class="LinkImg" src="{% static '/instagram.png' %}" alt="instagram"></a></li>
+                <li class="aSlink"><a href="https://www.facebook.com/" target="blank"><img class="LinkImg" src="{% static '/facebook.png' %}" alt="instagram"></a></li>
+                <li class="aSlink"><a href="https://twitter.com/" target="blank"><img class="LinkImg" src="{% static '/Twitter.png' %}" alt="instagram"></a></li>
                 
                 <li class="PrivacyLink"><a class="aPrivacy" href="#" target="blank">Pivacy Policy</a></li>
                 <li class="PrivacyLink"><a class="aPrivacy" href="#" target="blank">Terms & Conditions</a></li>
