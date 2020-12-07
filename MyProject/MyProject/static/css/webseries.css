@@ -1,0 +1,79 @@
+
+/*-------------------------------- CSS for Genre Section ---------------------------------*/
+
+
+#MovieSectionGenre{
+  margin: 22px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#MovieSectionGenre .container{
+       
+  margin: 20px auto;
+  margin-bottom: 25px;
+  margin-left: 22px;
+  width: 100%;
+ 
+     
+}
+
+#MovieSectionGenre .container #GenreLang{
+
+  padding:50px ;
+  background-color: rgb(60, 0, 109);
+  font-size: 30px;
+  border-radius: 35px;
+  box-shadow: 14px 21px 40px grey;
+  color: aliceblue;
+  cursor: pointer;
+  width: 100%;
+  max-width: 234px;
+  box-sizing: border-box;
+
+}
+
+#GenreLang:hover{
+opacity: 0.5;
+}
+
+
+
+/*-----------------------------css for search by language --------------------------------------*/
+
+
+#MovieSectionLang{
+
+  margin: 22px;
+  display: flex;
+    
+}
+    
+#MovieSectionLang .container{
+       
+  margin: 25px auto;
+  margin-bottom: 20px;
+  margin-left: 75px;
+  width: 100%;
+ 
+     
+}
+
+#MovieSectionLang .container #GenreLang{
+
+  padding:50px ;
+  background-color: rgb(60, 0, 109);
+  font-size: 50px;
+  border-radius: 35px;
+  box-shadow: 14px 21px 40px grey;
+  color: aliceblue;
+  cursor: pointer;
+  width: 100%;
+  max-width: 290px;
+  box-sizing: border-box;
+
+}
+
+#GenreLang:hover{
+opacity: 0.5;
+}

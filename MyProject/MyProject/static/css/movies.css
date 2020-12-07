@@ -1,0 +1,17 @@
+.fa{
+    margin-top: 180px;
+    color: lightslategrey;
+    
+}
+
+.fa:hover{
+    color: rgb(189, 3, 34);
+}
+
+.Arrow{
+    height: 10px;
+    width: 10px;
+}
+
+
+

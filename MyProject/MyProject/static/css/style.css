@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* -------------------------############## Header Section ###################------------------------- */
+
+.header {
+  background: linear-gradient(to top, #000066 17%, #990099 100%);
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  
+}
+.aitems {
+  color: #f2f2f2;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 3px;
+  font-family: 'Courgette', cursive;  
+  font-size: 20px;
+  font-weight: bold;
+  /*
+  TODO: Change margin value while coding for responsive layout. 
+  */
+}
+#navBar {
+  text-align: right;
+}
+.item {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.head-img{
+  height: 80px;
+  width: 80px;
+  float: left;
+  padding-left: 30px;
+}
+.aitems:hover {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/*------------------ Search Bar   --------------*/
+
+.searchContainer button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-top: 21px;
+}
+
+.searchContainer{
+  float: left;
+}
+
+#navBar input[type=text] {
+  padding: 0px;
+  margin-top: 31px;
+  font-size: 23px;
+  border: none;
+  margin-left: 88px;
+  border-radius: 5px;
+  background-color: rgba(170, 170, 170, 0.233);
+}
+
+.SearchImg{
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.hide {
+  display: none;
+}
+
+.searchContainer .SearchImg:hover + .hide{
+  display: block;
+  color: #c2edda;
+}
+
+
+/* -------------------------############### Body Section ################------------------------- */
+
+
+
+.headingMovies{
+  text-align: center;
+  margin-top: 78px;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 50px;
+  background: linear-gradient(to top, #990099 -65%, #000066 100%);
+  color: #c2edda;
+}
+
+#HeadingN{
+  margin: 0px;
+}
+
+/* css for boxes */
+
+#MovieSection{
+
+  margin: 22px;
+  display: flex;
+
+}
+
+#MovieSection .container{  
+  padding: 33px;
+  margin: 25px 24px;
+  background: #dfedff8f;
+  margin-bottom: 20px;
+  width: 100%;
+  position: static;
+  height: 100%;
+  box-shadow: 14px 21px 40px grey;
+}
+
+/* css for images inside boxes */
+
+
+.container .image1{
+  height: 206px;
+  display: block;
+  margin: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.container .p{ 
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* css for transition inside boxes */
+
+.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(5%, -241%);
+  
+}
+
+.container:hover .image1 {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #192A56;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+/*--------------------- ################## Footer Section ################# ----------------*/
+
+.footer{
+  background: #2C3335;
+}
+.footerNote{
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.LinkImg{
+  height: 30px; 
+  width : 30px;
+}
+
+.aSlink{
+  margin: 0 20px;
+  display: inline-block;
+}
+.LinkImg:hover{
+  border-bottom: 1px solid #f2f2f2;
+}
+.footerText{
+  color: #f2f2f2;
+  margin-bottom: 10px;
+  margin-left: 105px;
+}
+
+
+
+
+
+
+
+.PrivacyLink{
+  float: right;
+  display: block;
+}
+
+.aPrivacy{
+  margin: 0 20px;
+  color: #99AAAB;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  float: right;
+}
+
+.aPrivacy:hover{
+  border-bottom: 1px solid #f2f2f2;
+}
+
+
+/* neeeds editing........................
+
+1. alignment of text inside boxes buttom
+ 
+2. font family of boxes
+
+3. Hover alignment of the text inside the box
+
+........................................*/
