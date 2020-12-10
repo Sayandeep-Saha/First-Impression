@@ -10,5 +10,6 @@ urlpatterns = [
     path('webpages/webseries.html', views.webseries, name='webseries'),
     path('webpages/contact.html', views.contact, name='contact'),
     path('webpages/about.html', views.about, name='about'),
+    path('webpages/profile.html', views.profile, name='profile'),
     
 ]

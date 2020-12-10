@@ -17,4 +17,6 @@ def contact(request):
 def about(request):
     return render(request,'webpages/about.html')
 
+def profile(request):
+    return render(request,'webpages/profile.html')
 
