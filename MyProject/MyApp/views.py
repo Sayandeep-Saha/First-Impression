@@ -14,4 +14,7 @@ def webseries(request):
 def contact(request):
     return render(request,'webpages/contact.html')
 
+def about(request):
+    return render(request,'webpages/about.html')
+
 
