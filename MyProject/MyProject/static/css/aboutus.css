@@ -1,0 +1,24 @@
+.img-about {
+    width: 100%;
+    height: 425px;
+}
+
+.aboutProjectpg {
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  color: crimson;
+}
+
+.aboutProjectpara {
+  padding: 10px;
+  text-align: justify;
+  font-family: 'Jost', sans-serif;
+}
+
+.foundingPg {
+    margin-top: 25px;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  color: crimson;
+}
