@@ -5,12 +5,12 @@ from MyApp import views
 urlpatterns = [
 
     path('', views.index, name='home'),
-    path('webpages/index.html', views.index, name='home'),
-    path('webpages/movies.html', views.movies, name='movies'),
-    path('webpages/webseries.html', views.webseries, name='webseries'),
-    path('webpages/contact.html', views.contact, name='contact'),
-    path('webpages/about.html', views.about, name='about'),
-    path('webpages/profile.html', views.profile, name='profile'),
-    path('webpages/UserProfile.html', views.UserProfile, name='UserProfile'),
+    path('webpages/index', views.index, name='home'),
+    path('webpages/movies', views.movies, name='movies'),
+    path('webpages/webseries', views.webseries, name='webseries'),
+    path('webpages/contact', views.contact, name='contact'),
+    path('webpages/about', views.about, name='about'),
+    path('webpages/profile', views.profile, name='profile'),
+    path('webpages/UserProfile', views.UserProfile, name='UserProfile'),
        
 ]
