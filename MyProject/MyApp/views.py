@@ -20,3 +20,6 @@ def about(request):
 def profile(request):
     return render(request,'webpages/profile.html')
 
+def UserProfile(request):
+    return render(request,'webpages/UserProfile.html')
+
